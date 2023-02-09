@@ -1,0 +1,44 @@
+:root {
+    --bg-color: #ffffff;
+    --bg-color-two: #aa0000;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header {
+    font-size: 28px;
+    background-color: var(--bg-color-two);
+    padding: 10px;
+    font: bold;
+    color: var(--bg-color);
+    box-shadow: #d9d9d9 0 5px 0;
+}
+
+#content {
+    padding: 10px;
+}
+
+button {
+    background-color: var(--bg-color-two);
+    color: var(--bg-color);
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: #d9d9d9 0 5px 0;
+}
+
+button:active {
+    background-color: #f00;
+    box-shadow: #0000 0 0 0;
+    transform: translate(0, 5px);
+}
+
+.label {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
